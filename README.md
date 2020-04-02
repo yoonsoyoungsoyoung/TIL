@@ -91,18 +91,19 @@ main 섹션요소 아님 메인요소 내부에 요소들이 들어가는것 헤
 <span>인라인요소 한 글자 <br>
 
 -텍스트 레벨 시멘틱 요소 <br>
-아래첨자 - <sub> 수학식
-위첨자 - 각주 약어 <sup>
-<mark> 하이라이트 글자 요소
-<abbr> - 축약
-<time> 시간
-<s> 더이상 관련이 없거나 더 이상 정확하지 않은 요소
-취소선 
+아래첨자 - sub 수학식<br>
+위첨자 - 각주 약어 sup<br>
+mark 하이라이트 글자 요소<br>
+abbr - 축약<br>
+time 시간<br>
+s 더이상 관련이 없거나 더 이상 정확하지 않은 요소<br>
+취소선 <br>
   
 ```html
 <span>공유<data value=“0”>0</data></span>
 <p><time datetime=“2020-04-01”>오늘마감<time><data value=“7”>7개</data> 구매</p>
 ```
+
 ++까먹은거 <cite>출저
 
 
