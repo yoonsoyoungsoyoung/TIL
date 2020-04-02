@@ -99,11 +99,10 @@ main 섹션요소 아님 메인요소 내부에 요소들이 들어가는것 헤
 <s> 더이상 관련이 없거나 더 이상 정확하지 않은 요소
 취소선 
   
-‘’’Html
+```html
 <span>공유<data value=“0”>0</data></span>
 <p><time datetime=“2020-04-01”>오늘마감<time><data value=“7”>7개</data> 구매</p>
-‘’’
-
+```
 ++까먹은거 <cite>출저
 
 
