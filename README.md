@@ -104,6 +104,69 @@ s 더이상 관련이 없거나 더 이상 정확하지 않은 요소<br>
 <p><time datetime=“2020-04-01”>오늘마감<time><data value=“7”>7개</data> 구매</p>
 ```
 
-++까먹은거 <cite>출저
+++까먹은거 <cite>출저<br>
+
+
+-그룹핑요소 <br>
+Address - 사람, 기업의 정보 제공 <br>
+Pre 저장된 테스트 서식 보존 요소<br>
+아스키코드, 컴퓨터 코드(code)<br>
+전화 a- href tel : <br>
+```html
+<address> 
+	서울특별시 주소 대표전화 <a hef=“tel:+822938372839>02 39393039<a>
+</address> 
+```
+
+
+
+
+-임베디드 emcedded 요소 <br>
+1. HTML 픽쳐(Picture) 요소
+    1. Source srcset - media =“(min-width :900px)”속성으로 폭으로 반응형 웹 구현 가능
+2. HTML 비디오(Video) 요소
+    1. Source poster controls loop=“true” (반복)
+3. HTML 오디오(Audio) 요소
+    1. Src = img ,controls ,autoplay
+4. HTML 트랙(Track) 요소
+    1. 자막 표시 default 기본값 
+```html
+ <video src =“비디오 주소”>
+       <track src =“자막” kind =“subtitles“ scrlang=“ko” label= “한국어”> 다른언어도 가능
+       </video>
+       ```
+5. HTML 인라인 프레임(iframe) 요소
+    1. 다른 html 페이지를 포함하여 화면에 표시! 동영상 지도!
+    2. W,h 값설정 src frame border =“0”allowfullscreen style border = “0”
+6. HTML 이미지 맵(map) 요소
+    1. Area - 핫스팟 지역 정의 하이퍼링크 설정 map 내부에서만 사용 가능
+    2. 이미지 맵 사이트를 사용하기 
+    3. Alt,tilte 꼭 사용하기
+    4. Shape coords (좌표값) href target alt hreflang download
+7. HTML 확장 가능한 벡터그래픽(SVG) 요소
+    1. 백터 그래픽을 기술하기 위한 마크업 언어
+    2. <img> - svg 파일
+    3. <svg>- circle cw=“75” cy=“75” r=“40”
+    4. 코드로 넣어서 css 수정 가능
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
